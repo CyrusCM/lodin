@@ -1,0 +1,14 @@
+.inverted,
+.billxdd {
+    font-size: 28px;
+    font-family: Helvetica, "New Times Roman", sans-serif;
+}
+
+.inverted {
+    background-color: black;
+    color: white;
+}
+
+.billxdd {
+    background-color: yellow;
+}
