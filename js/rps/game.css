@@ -17,8 +17,8 @@
 
 .button {
     background-color: #ff0000;
-    border: none;
-    color: white;
+    border: 10px;
+    color: rgb(51, 255, 0);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -26,7 +26,6 @@
     font-size: 16px;
     border-radius: 14px;
     justify-content: row;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -46,7 +45,21 @@
 
 .contianer {
     display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container>.button {
+    background-color: #0059ff;
+    border: 10px;
+    color: rgb(51, 255, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 14px;
     justify-content: row;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
