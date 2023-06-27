@@ -10,26 +10,40 @@
 </head>
 
 <body>
-    <h1 class="header">Lets begin!</h1>
-    <img src="https://dailyanimeart.files.wordpress.com/2012/09/they-play-rock-paper-scissors1.jpg?w=730" width=auto;
-        height=auto>
-    <header>
-        <h1 class="title">Rock Paper Scissors</h1>
-    </header>
-    <h1 class="container"></h1>
-    <div class="button">
-        <div>
-            <button class="button-rock">Rock</button>
+    <div class="container">
+        <h1>Welcome</h1>
+        <h2>Choose your weapon!</h2>
+        <h3>First to 5 wins!</h3>
+
+
+        <!-- <img src="https://dailyanimeart.files.wordpress.com/2012/09/they-play-rock-paper-scissors1.jpg?w=730"
+            width=auto; height=auto></img> -->
+
+        <div class="button">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
         </div>
-        <div>
-            <button class="button-paper">Paper</button>
+
+        <form>
+            <input type="text">
+        </form>
+        <div class="labels">
+            <span class="playerLabel">Player Score</span>
+            <span class="aiLabel">AI Score</span>
         </div>
-        <div>
-            <button class="button-scissors">scissors</button>
-        </div>
+
+
     </div>
-    <h3 class="footer">devCyrus2023</h3>
+    <div class="scores">
+        <div id="playerscore"></div>
+        <div id="aiscore"></div>
+    </div>
+
+
+    <!-- <div class="footer">devcyr</div> -->
     <script src="app.js"></script>
+    </div>
 </body>
 
 

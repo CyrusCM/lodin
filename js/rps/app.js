@@ -3,14 +3,16 @@ let playerScore = 0
 let roundWon = ""
 let playerChoice;
 let roundTie = "Its a draw stand down"
+//let start = parseInt(promt("Choose your weapon"));
+
 // buttons for selectors
 let rockBtn = document.querySelector('.button-rock')
 let paperBtn = document.querySelector('.button-paper')
 let scissorsBtn = document.querySelector('.button-scissors');
 
-rockBtn.addEventListener('click', () => playRound('rock', compChoice()))
-paperBtn.addEventListener('click', () => playRound('paper', compChoice()))
-scissorsBtn.addEventListener('click', () => playRound('scissors', compChoice()))
+rock.addEventListener('click', () => playRound('rock', compChoice()))
+paper.addEventListener('click', () => playRound('paper', compChoice()))
+scissors.addEventListener('click', () => playRound('scissors', compChoice()))
 
 
 
